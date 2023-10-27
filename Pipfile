@@ -42,6 +42,7 @@ sklearn = "*"
 joblib = "*"
 ipykernel = "*"
 pytest-cov = "*"
+black = "*"
 
 [requires]
 python_version = "3.8"
