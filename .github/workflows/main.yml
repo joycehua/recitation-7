@@ -7,8 +7,9 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out repository code
-        uses: actions/checkout@v2
-
+        uses: actions/checkout@v2             
+      - name: Formatter
+        uses: rickstaa/action-black@v1.3.1
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
